@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css"href="style.css">
+
+    <title>Portfolio | Web Designer | Himal Pun</title>
+</head>
+
+<body style="background-color:powderblue;">
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">HimalPun</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About</a>
+                </li>
+                <!-- <li class="nav-item dropdown"> -->
+                    <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" -->
+                        <!-- data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+                        <!-- Services -->
+                    <!-- </a> -->
+                    <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown"> -->
+                        <!-- <a class="dropdown-item" href="#">Webside Design</a> -->
+                        <!-- <a class="dropdown-item" href="#">Graphic Design</a> -->
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <!-- <a class="dropdown-item" href="#">VFX/Video Editting</a> -->
+                    <!-- </div> -->
+                <li class="nav-item">
+                    <a class="nav-link"href="/faq.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact Us</a>
+                </li>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <!-- <div class="mx-2"> -->
+                <!-- <botton class="btn btn-warning" data-toggle="modal" data-target="#loginModal">Login</botton> -->
+                <!-- <botton class="btn btn-warning" data-toggle="modal" data-target="#signupModal">Signup</botton> -->
+            <!-- </div> -->
+        </div>
+      </nav>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Signup</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                            <label for="cexampleInputPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" id="cexampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Create Account</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/2.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Namaste ! I'm Himal Pun</h2>
+                    <p>Contact Me to Responsive Website Design.</p>
+                    <botton class="btn btn-primary">Web Development</botton>
+                    <botton class="btn btn-warning">Graphic Design</botton>
+                    <botton class="btn btn-success">VFX/Video Editing</botton>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/1.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Welcome to My Site</h2>
+                    <p>Contact Me to Awesome Graphic Design.</p>
+                    <botton class="btn btn-primary">Web Development</botton>
+                    <botton class="btn btn-warning">Graphic Design</botton>
+                    <botton class="btn btn-success">VFX/Video Editing</botton>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/b1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Awesome Responsive Website Design</h2>
+                    <p>Contact Me to Complate VEX/Video Editing.</p>
+                    <botton class="btn btn-primary">Web Development</botton>
+                    <botton class="btn btn-warning">Graphic Design</botton>
+                    <botton class="btn btn-success">VFX/Video Editing</botton>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="container my-4">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <h4 class="mb-0 text-primary">Grow Your Business Today !</h4>
+                        <div class="mb-1 text-Rubik"></div>
+                        <p class="card-text mb-auto">Website is a great way to spread your business around the world, in this mordern time. Through, which you can easily bring your products to the market. That's why, you will remember me to create a responsive website. I believe that, I can design according to your wishes.
+                        By working with me, you will be able to save time and money with get quality. If you need to make any small improvements in your work, I will fully support you.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="250" height="400" src="img/thumb1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+            
+                        <h3 class="mb-0 text-primary">Best Offer 2020 !</h3>
+                        <div class="mb-1 text-muted"></div>
+                        <p class="mb-auto">For us, 2020 started with a tragic situation because of Covid-19. At the same time, we have more challenges. The future will decide, when a permanent solution will be found. With this in mind, I have decided to offer a special discount for my clints until 2020. After the agreement with you, when paying the remaining amount, I will provide 5% to 15% discount according to the volume of the project.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="250" height="400" src="img/thumb.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <h4 class="mb-0 text-primary">Graphic Design !</h4>
+                        <div class="mb-1 text-muted"></div>
+                        <p class="card-text mb-auto">Do you want to give your business a separate identity? If you want, contact me. You will find creative designs of your company logo, banner, hoarding board, etc. in your time and budget.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250" src="img/thumb2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success"></strong>
+                        <h4 class="mb-0 text-primary">VFX ! Video Editing !</h4>
+                        <div class="mb-1 text-muted"></div>
+                        <p class="mb-auto">Apart from my job, I am a fiction & none fiction documentary film maker & director, Therefore I have a great knowledge also Video editing & making. In my team, I have Award winner VFX & Video Editors. We can complete your dream project as you like.</p>
+                        <a href="#" class="stretched-link">Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img" width="200" height="250" src="img/thumb3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container my-4">
+        <div class="text-primary">
+            <h2 class="text-center p-3">About Us !</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/himalpun.png"></img>
+                <h3 class="text-primary">Himal Pun</h3>
+                <h5 class="text-primary">Website Designer</h5>
+                <p>Mr. Himal Pun has been successfully completing an intensive course for 2000 to 2005 on Website designing, Graphic designing from National Informatic College, Pinacal Computer Institute, Aptech, Arena Multimedia. After completing the cource, He started his career in Nepal. He is a professional Website & Graphic Designer. He is also a Carrer Counselor & Trainer at GIOMA Consultancy and Live Nepal Academy.</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/saroj sunar.png"></img>
+                <h3 class="text-primary">Saroj Kumar Sunar</h3>
+                <h5 class="text-primary">VFX/Video Editor</h5>
+                <p>Mr. Saroj Kumar Sunar has been completing an intensive course for five years on Video Editing, After Effect, VEX and Animation from India. He came back to Nepal and started his carrer since 2010. He is a professional Video editing and animation. He is also a Good Trainer in Nepal and involve at Live Nepal Academy.</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="img/payment getway.png"></img>
+                <h5 class="text-primary">Payment Getway !</h5>
+                <p>After tender your project, you will be paid a fifty percent advance payment. The due amount will pay when complete the project. You can use the following payment method: western union money transfer, bank transfer, PayPal, and Payoneer.</p>
+            </div><!-- /.col-lg-4 -->
+        </div>
+    </div>
+
+    <footer class="container p-3 mb-2 bg-dark text-light">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p class="text-center">Copyright © 2020 HimalPun. Freelancer Website Designer & Developer.</p>
+          
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
